@@ -27,8 +27,6 @@ source.main = main.py
 
 # 버전
 version = 0.1
-version.regex = __version__ = ['"](.*)['"]
-version.filename = %(source.dir)s/main.py
 
 # 필요한 파이썬 패키지 (plyer = 진동 기능)
 requirements = python3,kivy,plyer
